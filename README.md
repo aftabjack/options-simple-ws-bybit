@@ -4,9 +4,23 @@ Optimized real-time options data collection system for BTC, ETH, and SOL options
 
 ## Quick Start
 
-### 1. Install Dependencies
+### Option 1: Automatic Setup (Recommended)
 ```bash
-pip3 install redis pybit requests
+# Run the setup script - installs everything
+python3 setup.py
+
+# Then start the tracker
+./start.sh
+# Or manually: python3 bybit_options_optimized.py track
+```
+
+### Option 2: Manual Setup
+```bash
+# Install from requirements.txt
+pip3 install -r requirements.txt
+
+# Or install individually
+pip3 install redis==5.0.1 pybit==5.6.2 requests==2.31.0
 ```
 
 ### 2. Start Redis

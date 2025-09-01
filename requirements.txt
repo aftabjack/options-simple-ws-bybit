@@ -1,0 +1,7 @@
+# Core Dependencies for Bybit Options Tracker
+redis==5.0.1
+pybit==5.6.2
+requests==2.31.0
+
+# Optional but recommended for better performance
+hiredis==2.3.2  # C parser for Redis (faster)
